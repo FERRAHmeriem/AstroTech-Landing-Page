@@ -1,11 +1,13 @@
 import Image from "next/image";
-//import your component here
+import AboutUS from "@/components/AboutUS";
+import Footer from "@/components/footer";
 
 export default function Home() {
   
   return (
-    <div>
-      
+     <div>
+        <AboutUS/>
+        <Footer/>
     </div>
   );
 }

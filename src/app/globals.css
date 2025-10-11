@@ -1,13 +1,22 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --font-nasalization: var(--font-nasalization);
-  --font-tommy-med: var(--font-made-tommy-medium);
-  --font-tommy-bold: var(--font-made-tommy-bold);
+  --font-nasalization: "Nasalization", sans-serif;
+  --font-tommy-med: "MADETOMMYMedium", sans-serif;
+  --font-tommy-bold: "MADETOMMYBold", sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* Optional utility classes for quick use */
+.font-nasalization {
+  font-family: var(--font-nasalization);
+}
+
+.font-tommy-med {
+  font-family: var(--font-tommy-med);
+}
+
+.font-tommy-bold {
+  font-family: var(--font-tommy-bold);
 }
