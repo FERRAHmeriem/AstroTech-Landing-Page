@@ -63,10 +63,10 @@ const Footer = () => {
           <a className="bg-white text-[#141C33] p-3 rounded-full" href="https://www.instagram.com/astrotech_esi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
             <FaInstagram size={26} />
           </a>
-          <a className="bg-white text-[#141C33] p-3 rounded-full">
+          <a className="bg-white text-[#141C33] p-3 rounded-full" href="https://www.tiktok.com/@astrotech_esi">
             <FaTiktok size={26} />
           </a>
-          <a className="bg-white text-[#141C33] p-3 rounded-full">
+          <a className="bg-white text-[#141C33] p-3 rounded-full" href="https://discord.gg/cSeM6Eg3">
             <FaDiscord size={26} />
           </a>
         </div>
