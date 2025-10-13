@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --font-nasalization: var(--font-nasalization);
-  --font-tommy-med: var(--font-made-tommy-medium);
-  --font-tommy-bold: var(--font-made-tommy-bold);
+/*removed the global applied css , *{} the margin and pasdding where set up to zero*/
+@layer base {
+  :root {
+    --font-nasalization: var(--font-nasalization);
+    --font-tommy-med: var(--font-tommy-medium);
+    --font-tommy-bold: var(--font-tommy-bold);
+  }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@theme {
+  --font-nasalization : 'Nasalization', sans-serif;
+  --font-tommy-med: 'Tommy Medium', sans-serif;
+  --font-tommy-bold: 'Tommy Bold', sans-serif;
+  --animate-slideDown : slideDown 0.5s ease-in-out forwards;
+  --animate-slideUp : slideUp 0.5s ease-in-out forwards;
 }
+
