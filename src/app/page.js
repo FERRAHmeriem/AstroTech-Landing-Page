@@ -1,5 +1,5 @@
 import JoinUs from "@/components/joinUs";
-
+import OurEvent  from "@/components/ourEvent";
 /**
  * Home Page Component
  * 
@@ -20,7 +20,7 @@ import JoinUs from "@/components/joinUs";
 export default function Home() {
   return (
    <div >
-    <JoinUs />
+    <OurEvent/>
   </div>
   )
 }
