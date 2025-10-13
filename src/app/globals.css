@@ -13,7 +13,5 @@
   --font-nasalization : 'Nasalization', sans-serif;
   --font-tommy-med: 'Tommy Medium', sans-serif;
   --font-tommy-bold: 'Tommy Bold', sans-serif;
-  --animate-slideDown : slideDown 0.5s ease-in-out forwards;
-  --animate-slideUp : slideUp 0.5s ease-in-out forwards;
-}
+} 
 

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Planet from "./planet";
+import { motion } from "framer-motion";
 
 /**
  * JoinUs Component
@@ -79,12 +80,16 @@ export default function JoinUs() {
        lightningColor="255, 140, 66"
        /> 
       </div>
-
       {/* Content */}
       {/* adjust the element gap by editing the gap-y property */}
       <div className="relative z-30 flex flex-col justify-center min-h-screen gap-y-6 min-w-full">
         {/* adjust the text margin by editing the ml property */}
-        <div className="md:ml-20 ml-10">
+        <motion.div 
+          className="md:ml-20 ml-10"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           <h1 className="text-white text-6xl font-nasalization w-fit py-3 ">
             Join us
           </h1>
@@ -103,22 +108,32 @@ export default function JoinUs() {
               Become an Astro-Technician now!
             </p>
           </div>
-        </div>
+        </motion.div>
         
-        <div className="flex flex-col gap-2 mt-8 justify-center items-center">
+        <motion.div 
+          className="flex flex-col gap-2 mt-8 justify-center items-center"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+        >
           <h2 className="text-white text-3xl font-nasalization ">
             1 day 2 hours 25 minutes
           </h2>
           <h2 className="text-white text-3xl font-nasalization">
             left
           </h2>
-        </div>
+        </motion.div>
         
-        <div className="flex justify-center items-center">
+        <motion.div 
+          className="flex justify-center items-center"
+          initial={{ opacity: 0, y: 50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+        >
           <button className="text-white text-3xl font-nasalization border-4 border-white px-8 p-3 rounded-xl hover:bg-white hover:text-black transition-colors mt-6 w-fit cursor-pointer">
             Join us now!
           </button>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
