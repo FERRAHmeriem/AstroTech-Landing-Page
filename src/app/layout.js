@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from '@/components/Navbar'; 
 
 const nasalization = localFont({
   src: "/fonts/Nasalization.otf",
@@ -26,7 +27,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={`${nasalization.variable} ${madeTommyBold.variable} ${madeTommyMed.variable} antialiased`}
+        style={{
+          backgroundImage: "url('/spaceBg.svg')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat"
+        }}
       >
+        <Navbar className="relative z-50" />
         {children}
       </body>
     </html>
