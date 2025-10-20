@@ -18,7 +18,7 @@ const madeTommyBold = localFont({
 });
 
 export const metadata = {
-  title: "Astroteck",
+  title: "Astrotech - Club",
    icons: {
     icon: "/logo.svg",
   },
