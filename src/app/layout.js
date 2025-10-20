@@ -1,5 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "@/components/footer";
 
 const nasalization = localFont({
   src: "/fonts/Nasalization.otf",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         className={`${nasalization.variable} ${madeTommyBold.variable} ${madeTommyMed.variable} antialiased`}
       >
         {children}
+        <Footer/>
       </body>
     </html>
   );
