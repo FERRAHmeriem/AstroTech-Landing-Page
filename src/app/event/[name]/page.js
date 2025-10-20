@@ -7,7 +7,7 @@ import EventAbout from "@/components/eventAbout";
 import EventGalery from "@/components/eventGalery";
 import { motion } from "framer-motion"
 
-export default function page() {
+export default function Page() {
   const { name } = useParams();
   const event = events.find(
     (e) => e.name.toLowerCase() === name.toLowerCase()
