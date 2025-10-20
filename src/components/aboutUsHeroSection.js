@@ -32,7 +32,7 @@ export default function AboutUsHeroSection() {
 
             <p className="text-xl lg:text-3xl font-tommyMed font-medium">
               AstroTech is a scientific club that brings together young technology and astronomy enthusiasts from different universities in one place.
-              Based at École Nationale Supérieure D'informatique (ESI ex INI), AstroTech was founded in 2022, with the objective of building a community of students, motivated to learn and apply IT skills to astronomy and astrophysics, study the field’s fundamentals, conducting their own research, and create tools that make learning and exploring astronomy more engaging and accessible.
+              Based at École Nationale Supérieure D'informatique (ESI ex INI), AstroTech was founded in 2022, with the objective of building a community of students, motivated to learn and apply IT skills to astronomy and astrophysics, study the field fundamentals, conducting their own research, and create tools that make learning and exploring astronomy more engaging and accessible.
 
             </p>
           </div>
