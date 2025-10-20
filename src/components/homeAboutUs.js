@@ -26,7 +26,7 @@ export default function HomeAboutUs() {
 
         <p className="font-tommyMed text-lg sm:text-xl md:text-2xl leading-relaxed max-w-2xl">
           AstroTech is where Tech and astronomy enthusiasts are brought together to work on projects that enhance their careers and drive their passion for both technology and astronomy.
-          Located at École Nationale Supérieure D'informatique (ESI ex INI), AstroTech is the perfect place for everyone that wants to learn IT, or astronomy and astrophysics, or both, develop modern tools, and join a community of like minded and motivated young students
+          Located at École Nationale Supérieure Dinformatique (ESI ex INI), AstroTech is the perfect place for everyone that wants to learn IT, or astronomy and astrophysics, or both, develop modern tools, and join a community of like minded and motivated young students
 
         </p>
 
