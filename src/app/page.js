@@ -3,7 +3,6 @@ import HeroSection from "@/components/heroSection";
 import HomeAboutUs from "@/components/homeAboutUs";
 import HomeOurEvent from "@/components/homeOurEvent";
 import JoinUs from "@/components/joinUs";
-import Image from "next/image";
 //import your component here
 
 export default function Home() {
