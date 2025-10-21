@@ -1,7 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/footer";
-
+import FullPageLoader from './components/fullPageLoader';
 const nasalization = localFont({
   src: "/fonts/Nasalization.otf",
   variable: "--font-nasalization",
@@ -30,8 +30,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${nasalization.variable} ${madeTommyBold.variable} ${madeTommyMed.variable} antialiased`}
       >
+        <FullPageLoader>
         {children}
         <Footer/>
+        </FullPageLoader>
       </body>
     </html>
   );
