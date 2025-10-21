@@ -6,7 +6,7 @@ export default function AboutUsHeroSection() {
   return (
     <div className="relative mb-[400px] md:mb-[500px] lg:mb-[600px]">
       
-      <div className="pt-64 h-screen flex flex-col items-center justify-center">
+      <div className="pt-32 h-screen flex flex-col items-center justify-center">
         <div className="w-[85%] z-10 bg-[#d9d9d951] rounded-4xl flex flex-col md:flex-row items-center justify-center px-6 py-12 md:py-16 gap-12 xl:gap-24 text-center md:text-left">
           
           {/* Image */}
@@ -22,17 +22,17 @@ export default function AboutUsHeroSection() {
           </div>
 
           <div className="basis-2/3 text-[#eff2ff] space-y-8 md:space-y-12">
-            <div className="py-2 mx-auto md:mx-0 w-[90%] md:w-[550px] border-b-4 border-[#EBEEFF] text-lg sm:text-xl md:text-2xl lg:text-3xl font-nasa">
+            <div className="py-2 mx-auto md:mx-0 w-[90%] md:w-[550px] border-b-4 border-[#EBEEFF] text-2xl lg:text-3xl font-nasa">
               <p>Who Are We ?</p>
             </div>
 
-            <h1 className="text-lg sm:text-2xl md:text-3xl lg:text-5xl font-nasa">
+            <h1 className="text-3xl lg:text-5xl font-nasa">
               A Community of Astronomy passionate Students
             </h1>
 
-            <p className="text-lg md-text-xl font-tommyMed font-medium">
+            <p className="text-xl lg:text-3xl font-tommyMed font-medium">
               AstroTech is a scientific club that brings together young technology and astronomy enthusiasts from different universities in one place.
-              Based at École Nationale Supérieure D informatique (ESI ex INI), AstroTech was founded in 2022, with the objective of building a community of students, motivated to learn and apply IT skills to astronomy and astrophysics, study the field fundamentals, conducting their own research, and create tools that make learning and exploring astronomy more engaging and accessible.
+              Based at École Nationale Supérieure D informatique (ESI ex INI), AstroTech was founded in 2022, with the objective of building a community of students, motivated to learn and apply IT skills to astronomy and astrophysics, study the field’s fundamentals, conducting their own research, and create tools that make learning and exploring astronomy more engaging and accessible.
 
             </p>
           </div>
