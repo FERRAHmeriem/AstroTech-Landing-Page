@@ -6,7 +6,7 @@ export default function AboutUsHeroSection() {
   return (
     <div className="relative mb-[400px] md:mb-[500px] lg:mb-[600px]">
       
-      <div className="pt-32 h-screen flex flex-col items-center justify-center">
+      <div className="pt-64 h-screen flex flex-col items-center justify-center">
         <div className="w-[85%] z-10 bg-[#d9d9d951] rounded-4xl flex flex-col md:flex-row items-center justify-center px-6 py-12 md:py-16 gap-12 xl:gap-24 text-center md:text-left">
           
           {/* Image */}
@@ -39,7 +39,7 @@ export default function AboutUsHeroSection() {
         </div>
       </div>
 
-      <div className="absolute bottom-[-250px] md:bottom-[-350px] lg:bottom-[-450px] left-1/2 -translate-x-1/2 w-full">
+      <div className="absolute bottom-[-300px] md:bottom-[-400px] lg:bottom-[-500px] left-1/2 -translate-x-1/2 w-full">
         <div className="relative flex flex-col md:flex-row justify-center items-center gap-12 md:gap-20 lg:gap-32 px-4">
           
           {/* Counter */}
