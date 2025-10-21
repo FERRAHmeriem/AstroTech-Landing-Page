@@ -3,12 +3,13 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
+import { useRouter } from "next/navigation";
 
 export default function Header({ page }) {
   const [scrolled, setScrolled] = useState(false);
   const [visible, setVisible] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
-
+  const router = useRouter();
   useEffect(() => {
     const timer = setTimeout(() => setVisible(true), 100);
     return () => clearTimeout(timer);
@@ -57,7 +58,7 @@ export default function Header({ page }) {
       </div>
 
       {/* --- Join Us Button (Desktop only) --- */}
-      <button className="hidden lg:block text-lg cursor-pointer font-nasa border-[#2F456F] border-3 bg-[#5374AC] px-6 py-2 rounded-2xl hover:scale-105 transition text-[#EBEEFF]">
+      <button onClick={() => router.push("https://tripetto.app/run/V7GC5XAF65")} className="hidden lg:block text-lg cursor-pointer font-nasa border-[#2F456F] border-3 bg-[#5374AC] px-6 py-2 rounded-2xl hover:scale-105 transition text-[#EBEEFF]">
         Join Us
       </button>
 
@@ -101,7 +102,7 @@ export default function Header({ page }) {
             Contacts
           </Link>
 
-          <button className="mt-4 text-lg font-nasa border-[#2F456F] border-3 bg-[#5374AC] px-6 py-2 rounded-2xl hover:scale-105 transition text-[#EBEEFF] mx-auto">
+          <button onClick={() => router.push("https://tripetto.app/run/V7GC5XAF65")} className="mt-4 text-lg font-nasa border-[#2F456F] border-3 bg-[#5374AC] px-6 py-2 rounded-2xl hover:scale-105 transition text-[#EBEEFF] mx-auto">
             Join Us
           </button>
         </div>
