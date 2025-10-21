@@ -30,10 +30,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${nasalization.variable} ${madeTommyBold.variable} ${madeTommyMed.variable} antialiased`}
       >
-        <FullPageLoader>
         {children}
         <Footer/>
-        </FullPageLoader>
       </body>
     </html>
   );
