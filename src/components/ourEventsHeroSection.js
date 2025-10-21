@@ -7,7 +7,7 @@ export default function OurEventsHeroSection() {
       {/* -------- Large screens (unchanged) -------- */}
       <div className="hidden lg:flex flex-col md:flex-row justify-around items-center p-6 md:p-8 space-y-6 md:space-y-0">
         {/* Texte et logo */}
-        <div className="flex flex-col items-center text-center space-y-3 md:space-y-4">
+        <div className="flex flex-col items-center text-center space-y-3 md:space-y-4 z-50">
           <div className="border-b-2 border-[#EBEEFF] relative w-xs h-[120px] md:w-2xl md:h-[200px]">
             <Image
               src="/Logo.svg"
@@ -35,7 +35,7 @@ export default function OurEventsHeroSection() {
 
       {/* -------- Small screens (new centered layout) -------- */}
       <div className="flex lg:hidden flex-col justify-center items-center h-full relative overflow-hidden">
-        <div className="absolute inset-0 flex justify-center items-center md:scale-150">
+        <div className="absolute inset-0 flex justify-center items-center md:scale-150 z-10">
           <Planet
             width="250px"
             height="250px"
@@ -44,7 +44,7 @@ export default function OurEventsHeroSection() {
           />
         </div>
 
-        <div className="relative z-10  text-center text-[#EBEEFF] px-4">
+        <div className="relative z-50  text-center text-[#EBEEFF] px-4">
           <Image
             src="/Logo.svg"
             width={70}
@@ -62,7 +62,7 @@ export default function OurEventsHeroSection() {
       </div>
 
       {/* -------- Other planets (unchanged) -------- */}
-      <div className="hidden lg:block absolute bottom-[10px] left-1/4">
+      <div className="hidden lg:block absolute bottom-[10px] left-1/4 z-10">
         <Planet
           width="220px"
           height="220px"
@@ -71,7 +71,7 @@ export default function OurEventsHeroSection() {
         />
       </div>
 
-      <div className="hidden lg:block absolute bottom-[50px] right-[-50px]">
+      <div className="hidden lg:block absolute bottom-[50px] right-[-50px] z-10">
         <Planet
           width="200px"
           height="200px"
