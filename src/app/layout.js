@@ -1,7 +1,6 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "@/components/footer";
-import FullPageLoader from './components/fullPageLoader';
 const nasalization = localFont({
   src: "/fonts/Nasalization.otf",
   variable: "--font-nasalization",
