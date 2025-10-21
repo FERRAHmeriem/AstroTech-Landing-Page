@@ -39,7 +39,7 @@ export default function AboutUsHeroSection() {
         </div>
       </div>
 
-      <div className="absolute bottom-[-260px] md:bottom-[-350px] lg:bottom-[-1000px] left-1/2 -translate-x-1/2 w-full">
+      <div className="absolute bottom-[-260px] md:bottom-[-350px] lg:bottom-[-0px] left-1/2 -translate-x-1/2 w-full">
         <div className="relative flex flex-col md:flex-row justify-center items-center gap-12 md:gap-20 lg:gap-32 px-4">
           
           {/* Counter */}
