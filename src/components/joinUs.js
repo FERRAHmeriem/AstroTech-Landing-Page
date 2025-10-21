@@ -64,7 +64,7 @@ export default function JoinUs() {
           </motion.h1>
 
           <button
-            onClick={() => router.push("www.google.com")}
+            onClick={() => router.push("https://tripetto.app/run/V7GC5XAF65")}
             className="py-2 px-4 rounded-2xl font-nasa text-2xl sm:text-3xl md:text-4xl text-[#EBEEFF] border-2 border-[#EBEEFF] hover:bg-[#EBEEFF] hover:text-black cursor-pointer transition"
           >
             Join us now!
