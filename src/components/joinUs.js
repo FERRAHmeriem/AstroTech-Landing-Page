@@ -5,7 +5,7 @@ import Planet from "./planet";
 import { useRouter } from "next/navigation";
 
 export default function JoinUs() {
-  const targetDate = new Date("2025-10-27T23:59:59").getTime();
+  const targetDate = new Date("2025-10-26T23:59:59").getTime();
   const router = useRouter();
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0 });
 
