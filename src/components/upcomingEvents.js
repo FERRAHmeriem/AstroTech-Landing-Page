@@ -122,16 +122,6 @@ export default function UpcomingEvents() {
               </motion.div>
             );
           })}
-
-          <motion.div
-            variants={fadeUp}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="absolute left-1/2 transform -translate-x-1/2 bottom-[-15px] z-20 hidden sm:block"
-          >
-            <Image src="/arrow.svg" alt="Down arrow" width={60} height={60} />
-          </motion.div>
         </div>
       </div>
     </section>

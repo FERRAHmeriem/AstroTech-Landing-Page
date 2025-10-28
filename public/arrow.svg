@@ -1,4 +1,2 @@
-<!-- /public/icons/arrow-down.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24">
-  <path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke="white" strokewidth="2" strokelinecap="round" strokelinejoin="round"></path>
-</svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 4v16l-6-6m6 6 6-6" stroke="#fff" strokelinecap="round" strokelinejoin="round" strokewidth="2"/></svg>
