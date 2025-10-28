@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("/background.svg");
+  background-size: cover;
+}
+
+.font-nasa{
+font-family: var(--font-nasalization);
+}
+
+.font-tommyMed{
+font-family: var(--font-made-tommy-medium) ;
+}
+
+.font-tommuBold{
+  font-family: var(--font-made-tommy-bold) ;
+}
